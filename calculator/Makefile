@@ -8,6 +8,6 @@ calculator: $(objects)
 
 clean:
 	rm -f calculator $(objects)
-	cc -o calculator $(objects)
+	make
 
 .PHONY: clean
