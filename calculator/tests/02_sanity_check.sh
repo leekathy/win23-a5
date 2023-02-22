@@ -23,7 +23,7 @@ if [[ $($CALCULATOR 10 / 5) -ne 2 ]]; then
 fi
 
 # Test 01: Ensure the program runs without error for multiplication
-if [[ $($CALCULATOR 3 * 5) -ne 15 ]]; then
+if [[ $($CALCULATOR 3 '*' 5) -ne 15 ]]; then
   echo 'Error! Did not get 3 * 5 = 15.'
   exit 1
 fi
